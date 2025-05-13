@@ -49,3 +49,46 @@ header {
 #seta:hover {
   opacity: 0.55;
 }
+
+main {
+  font-family: 'Cinzel', serif;
+}
+
+#tituloh1 {
+  display: flex;
+  font-size: 1.6rem;
+  margin-left: 25rem;
+  margin-top: 4rem;
+  opacity: 0.6;
+  transition: opacity 2s ease-in-out;
+  text-shadow: 4px 4px 8px rgba(255, 255, 255, 1);
+}
+
+#tituloh1:hover {
+  opacity: 1;
+}
+
+#paragrafo {
+  text-align: justify;
+  padding-left: 25rem;
+  padding-right: 25rem;
+  margin-top: 3rem;
+  opacity: 0.6;
+  transition: opacity 2s ease-in-out;
+  text-shadow: 4px 4px 8px rgba(255, 255, 255, 0.9);
+}
+
+#paragrafo:hover {
+  opacity: 1;
+}
+
+#git {
+  zoom: 0.09;
+  margin-left: 362rem;
+  opacity: 0.4;
+  transition: opacity 2s ease-in-out;
+}
+
+#git:hover {
+  opacity: 1;
+}
