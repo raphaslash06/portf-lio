@@ -1,7 +1,7 @@
 body {
   margin: 0rem;
   min-height: 100vh;
-  background: linear-gradient(to bottom, #4b0000 0%, #000000 25%, #000000 75%, #4b0000 100%);
+  background: linear-gradient(to bottom, #3fa8fd9c 0%, #fffffff5 25%, #fffffff5 75%, #3fa8fd9c 100%);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100% 300%;
@@ -25,83 +25,54 @@ body {
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  margin: 0rem;
+  background-color: green;
 }
 
-#nomeh1 {
-  margin: 0;
-  color: white;
-  font-family: 'Cinzel', serif;
-  transition: opacity 2s ease-in-out;
-  opacity: 0.3;
-  margin-top: 6rem;
-  text-shadow: 4px 4px 8px rgba(255, 255, 255, 0.7);
-}
 
-#nomeh1:hover {
-  opacity: 1;
-
-}
-
-#nav1 {
+#headeritens {
   display: flex;
-  justify-content: center;
-  gap: 15rem;
-  margin-top: 12.5rem;
+  justify-content: right;
+  font-size: 1.6rem;
+  margin-top: 1.6rem;
+  gap: 4rem;
+  margin-right: 4rem;
 }
 
-#about {
-  color: white;
+@media (max-width: 768px) {
+  #headeritens {
+    font-size: 1.6vh;
+    gap: 1.3rem;
+    margin-left: 4rem;
+    
+    
+  }
+}
+
+#nomerapha {
+  color: black;
+  margin-left: 8rem;
+  
+}
+
+@media (max-width: 768px) {
+  #nomerapha{
+    font-size: 0.8rem;
+    margin-left: 2rem;
+    
+  }
+}
+
+.headerclass {
   text-decoration: none;
-  scale: 1.75;
-  opacity: 0.3;
-  transition: transform 2s ease-in-out, opacity 2s ease-in-out;
-  text-shadow: 4px 4px 8px rgba(255, 255, 255, 0.8);
+  color: black;
+
 }
 
-#about:hover {
-  transform: scale(1.3);
-  opacity: 1;
-}
-
-#projects {
-  color: white;
-  text-decoration: none;
-  scale: 1.75;
-  opacity: 0.3;
-  transition: transform 2s ease-in-out, opacity 2s ease-in-out;
-  text-shadow: 4px 4px 8px rgba(255, 255, 255, 0.8);
-}
-
-#projects:hover {
-  transform: scale(1.3);
-  opacity: 1;
-}
-
-#skills {
-  color: white;
-  text-decoration: none;
-  scale: 1.75;
-  opacity: 0.3;
-  transition: transform 2s ease-in-out, opacity 2s ease-in-out;
-  text-shadow: 4px 4px 8px rgba(255, 255, 255, 0.8);
-}
-
-#skills:hover {
-  transform: scale(1.3);
-  opacity: 1;
-}
-
-#contact {
-  color: white;
-  text-decoration: none;
-  scale: 1.75;
-  opacity: 0.3;
-  transition: transform 2s ease-in-out, opacity 2s ease-in-out;
-  text-shadow: 4px 4px 8px rgba(255, 255, 255, 0.8);
-}
-
-#contact:hover {
-  transform: scale(1.3);
-  opacity: 1;
+@media (max-wdith: 768px) {
+  .headerclass {
+    text-decoration: none;
+    color: black;
+  }
 }
